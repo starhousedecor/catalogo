@@ -9,8 +9,8 @@ body {
 }
 
 main {
-  align-items: center;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .logo-starhousedecor {
   margin-top: 3%;
@@ -25,13 +25,11 @@ main {
   }
 }
 .pdf-container {
-  min-width: 450px;
-  min-height: 350px;
   padding: 5em;
+  min-width: 850px;
   background-color: #101010;
   border: solid 2px #15151590;
   border-radius: 10px;
-  margin: 1% 28%;
   animation: animated-shadow 1s forwards ease-in-out;
 }
 .pdf-title {
@@ -60,4 +58,11 @@ main {
 }
 .pdf-link-to-download:hover {
   color: #FFF;
+}
+
+@media (max-width: 860px) {
+  .pdf-container {
+    min-width: 650px;
+    margin: 0 1% 0 3%;
+  }
 }
