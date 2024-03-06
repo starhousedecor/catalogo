@@ -61,8 +61,18 @@ main {
 }
 
 @media (max-width: 860px) {
+  .logo-starhousedecor {
+    width: 360px;
+  }
   .pdf-container {
-    min-width: 650px;
-    margin: 0 1% 0 3%;
+    min-width: 350px;
+    margin: 0;
+    padding: 15% 10%;
+  }
+  .pdf-title {
+    font-size: 2rem;
+  }
+  .button-to-download {
+    font-size: 1rem;
   }
 }
