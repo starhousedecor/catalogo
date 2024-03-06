@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #E8BA82;
+}
+
+main {
+  align-items: center;
+  text-align: center;
+}
+.logo-starhousedecor {
+  margin-top: 3%;
+}
+
+@keyframes animated-shadow {
+  from {
+    box-shadow: 0;
+  }
+  to {
+    box-shadow: 40px 40px 20px #000e;
+  }
+}
+.pdf-container {
+  min-width: 450px;
+  min-height: 350px;
+  padding: 5em;
+  background-color: #101010;
+  border: solid 2px #15151590;
+  border-radius: 10px;
+  margin: 1% 28%;
+  animation: animated-shadow 1s forwards ease-in-out;
+}
+.pdf-title {
+  display: inline;
+  color: #DDD;
+  font-size: 3.3rem;
+}
+.button-to-download {
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: #DDD;
+  border-radius: 15px;
+  padding: 1em;
+  border: solid 2px #151515;
+  margin-top: 2em;
+}
+.button-to-download:hover {
+  background-color: #A81033;
+  color: #FFF;
+  transition: 1s;
+  cursor: pointer;
+}
+.pdf-link-to-download {
+  color: #303030;
+  text-decoration: none;
+}
+.pdf-link-to-download:hover {
+  color: #FFF;
+}
